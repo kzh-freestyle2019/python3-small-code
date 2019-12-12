@@ -1,0 +1,10 @@
+i = 1
+print('-' * 50)      #字符串若是乘上整数 n，将返回由 n 个此字符串拼接起来的新字符串。
+while i <= 10:
+    n = 1
+    while n <= 10:
+        print("{:6d}".format(i*n),end=' ')
+        n += 1
+    print()
+    i += 1
+ print('-' * 50)
